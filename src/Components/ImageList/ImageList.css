@@ -1,0 +1,28 @@
+#imageList .col {
+    height: 260pt;
+}
+
+#imageList .col div {
+    padding: 10px;
+}
+
+#imageList .col div > div.container {
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    height: 250pt;
+    padding: 10px;
+}
+
+#imageList .col div > div.container div.image {
+    border-radius: 10px;
+    background-color: #585858;
+    height: 100px;
+}
+
+#imageList .col div > div.container div.title {
+    font-weight: bold;
+}
+
+#imageList .col div {
+    padding: 10px;
+}

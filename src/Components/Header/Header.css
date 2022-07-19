@@ -1,0 +1,32 @@
+.head {
+    display: block;
+    height: 50px;
+    background-color: #333333;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .head > h2 {
+    margin-bottom: 0;
+    position: relative;
+    font-size: 24px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #fff;
+    width: 50px;
+    line-height: 50px;
+  }
+
+  .head > a {
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+    float: right;
+  }
+
+  .head > a > img { 
+    margin-top: -5px;
+  }

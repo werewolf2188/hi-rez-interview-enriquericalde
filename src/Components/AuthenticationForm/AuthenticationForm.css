@@ -1,0 +1,44 @@
+#authenticationContainer {
+    position: absolute;
+    display: block;
+    background-color: #f1f1f1;
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+}
+
+.authenticationForm {
+    display: block;
+    background-color: #f1f1f1;
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 10px 10px 10px;
+}
+
+.authenticationList {
+    display: block;
+    background-color: #f1f1f1;
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+}
+
+.authenticationList div {
+    width: 100%;
+    border-bottom: 1px solid #333333;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.authenticationList div.active {
+    background-color: #ffffff;
+}
+
+.authenticationList :first {
+    height: 60px
+}
+
+.authenticationForm input {
+    border-radius: 0%;
+}

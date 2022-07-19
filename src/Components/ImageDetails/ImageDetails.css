@@ -1,0 +1,46 @@
+#imageDetails {
+
+}
+
+#imageDetails .col.imageSelected {
+    height: 260pt;
+}
+
+#imageDetails .col div {
+    padding: 10px;
+}
+
+#imageDetails .col.imageSelected div > div.container {
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    height: 250pt;
+    padding: 10px;
+}
+
+#imageDetails .col.imageSelected div > div.container div.image {
+    border-radius: 10px;
+    background-color: #585858;
+    height: 100px;
+}
+
+#imageDetails .col.imageSelected div > div.container div.title {
+    font-weight: bold;
+}
+
+#imageDetails .col.comments div > div.container {
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    height: 250pt;
+    padding: 10px;
+}
+
+
+#imageDetails .col.button div {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#imageDetails .col.button div button {
+    width: 100%;
+}
